@@ -1,6 +1,11 @@
 queue_rules:
   - update_method: rebase
     name: Dependency Updates
-    queue_conditions:
+priority_rules:
+  - name: Merge priorities
+    priority: high
+    conditions:
       - and:
           - author = app/renovate
+          - base = master
+    allow_checks_interruption: false
