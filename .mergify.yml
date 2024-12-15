@@ -1,3 +1,6 @@
 queue_rules:
   - update_method: rebase
     name: Dependency Updates
+    queue_conditions:
+      - and:
+          - author = app/renovate
