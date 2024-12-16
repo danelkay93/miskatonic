@@ -1,0 +1,17 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+
+jobs:
+  docker-lint:
+    name: Docker Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Run Docker Lint
+        uses: lukeely/Docker-Lint-Action@v1.1.1
+        with:
+          dockerfile_paths: './dockerfile'
+          target: 'Dockerfile'
