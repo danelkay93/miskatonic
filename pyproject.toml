@@ -36,7 +36,7 @@ lightning = "^2.0.6"
 tensorboard = "^2.13.0"
 comet-ml = "^3.33.8"
 fuzzywuzzy = "^0.18.0"
-python-levenshtein = "^0.26.0"
+python-levenshtein = "^0.27.0"
 
 
 [build-system]
