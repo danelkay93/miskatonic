@@ -879,13 +879,13 @@ Django = ">=3.2"
 
 [[package]]
 name = "django-ninja"
-version = "1.4.1"
+version = "1.4.2"
 description = "Django Ninja - Fast Django REST framework"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "django_ninja-1.4.1-py3-none-any.whl", hash = "sha256:a091aa69be6ba75a89c5043d35f99cf9bf4f5c26e1ac6783accf8eaa1f8cb12b"},
-    {file = "django_ninja-1.4.1.tar.gz", hash = "sha256:828a901abdc9c02cc89c9ab646cbafbc972c0a90919b16b37b3197d8d6094abb"},
+    {file = "django_ninja-1.4.2-py3-none-any.whl", hash = "sha256:9f8e29d52247729a0bd1090bae20010d39f24e61938dd848d19bb25bf88ad4ad"},
+    {file = "django_ninja-1.4.2.tar.gz", hash = "sha256:5295760282a705cabd398386e7dffbc99551e3b765f30e1a40e62676100b2604"},
 ]
 
 [package.dependencies]
