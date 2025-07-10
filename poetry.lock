@@ -916,13 +916,13 @@ test = ["coverage (==5.4)", "pandas (>=0.20.1)", "semver (==2.10.1)"]
 
 [[package]]
 name = "django-postgres-extra"
-version = "2.0.9rc12"
+version = "2.0.9rc13"
 description = "Bringing all of PostgreSQL's awesomeness to Django."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "django_postgres_extra-2.0.9rc12-py3-none-any.whl", hash = "sha256:0f0174653b19d044edb099214b511f13f57106d4ef0b2da442ff97b18db8d179"},
-    {file = "django_postgres_extra-2.0.9rc12.tar.gz", hash = "sha256:aae2d730be4c8d71f3ffc4a98d2debbe7fa42547e16ba68d5eeeae522fd486e3"},
+    {file = "django_postgres_extra-2.0.9rc13-py3-none-any.whl", hash = "sha256:adb1943d6d24d990f6a71bf4ba4b2a5bdb852d7d4c2f51a581026e291707242d"},
+    {file = "django_postgres_extra-2.0.9rc13.tar.gz", hash = "sha256:f7b1a900b284b2d589a6e970209e1eaf917a63f2ba962ca06c1b74f9eaf6db3b"},
 ]
 
 [package.dependencies]
@@ -6196,4 +6196,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10.11"
-content-hash = "f2bc1cb0ac9f13b49d28443365cbb229348112338bf377faf5b50e07483cc8d7"
+content-hash = "1d9bb97a0b3365a949a9c0a6a242db4008138c0b7ed864d93b886dc4d72ea62d"
