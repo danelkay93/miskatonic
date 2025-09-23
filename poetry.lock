@@ -636,13 +636,13 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "comet-ml"
-version = "3.52.1"
+version = "3.53.0"
 description = "Supercharging Machine Learning"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "comet_ml-3.52.1-py3-none-any.whl", hash = "sha256:fb9e26515024da4e38e39cdb6cda750a555f8c76e70a74ba9f99ec39de63ecc9"},
-    {file = "comet_ml-3.52.1.tar.gz", hash = "sha256:117c9139bcb197d1761f979f8b7174aeec45b5e21cf3c11230274b7b83965719"},
+    {file = "comet_ml-3.53.0-py3-none-any.whl", hash = "sha256:4d18a007c56f4d84c30c165bb4310038a8158df3c1f93381d00f481054655327"},
+    {file = "comet_ml-3.53.0.tar.gz", hash = "sha256:29831eea50cd8f99f25da07486c936493c06013900b91c2bf124b3973dd6e2d0"},
 ]
 
 [package.dependencies]
